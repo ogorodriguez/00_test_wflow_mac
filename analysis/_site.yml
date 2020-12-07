@@ -1,7 +1,7 @@
-name: "Test-Wflow-Mac"
+name: Test-Wflow-Mac
 output_dir: ../docs
 navbar:
-  title: "Test-Wflow-Mac"
+  title: Test-Wflow-Mac
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/ogorodriguez/00_test_wflow_mac
 output:
   workflowr::wflow_html:
     toc: yes
