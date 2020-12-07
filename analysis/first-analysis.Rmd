@@ -1,0 +1,17 @@
+---
+title: "first-analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Check my first analysis here
+
+ 
+```{r}
+library(ggplot2)
+ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()
+```
+
