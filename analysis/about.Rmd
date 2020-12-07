@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About my test project"
 output:
   workflowr::wflow_html:
     toc: false
@@ -8,3 +8,8 @@ editor_options:
 ---
 
 Describe your project.
+
+This simple website will host yet another example form workflowr to see if I 
+can actually set it up well in github and also publish it as a website.
+
+
