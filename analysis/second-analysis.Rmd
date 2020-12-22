@@ -1,0 +1,16 @@
+---
+title: "second-analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Check my SECOND analysis here
+
+ 
+```{r}
+library(ggplot2)
+ggplot(midwest, aes(x=area, y=poptotal)) + geom_jitter()
+```
